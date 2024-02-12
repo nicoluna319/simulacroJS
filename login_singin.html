@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rofi Social</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/index.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rofi social</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="style/login.css">
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Rofi Social</a>
@@ -42,28 +43,24 @@
           </div>
         </div>
       </nav>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-        <label for="floatingTextarea2">Think of the day</label>
-      </div>
+     <div class="card">
+     <form id="formSingIn">
+           
+           <div class="mb-3">
+               <label for="inputEmail" class="form-label">Email address</label>
+               <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+               
+           </div>
+           <div class="mb-3">
+               <label for="inputPassword" class="form-label">Password</label>
+               <input type="password" class="form-control" id="inputPassword">
+           </div>
+           <button type="submit" class="btn btn-primary">Sign-In</button>
+       </form>
+       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="https://e0.pxfuel.com/wallpapers/157/177/desktop-wallpaper-mugiwara-reunidos-mugiwaras.jpg" class="card-img-top" alt="post_carta">
-        <div class="card-body">
-          <h5 class="card-title">Titulo del post</h5>
-          <p class="card-text">Descripcion del post</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Fecha y Hora</li>
-        </ul>
-        <div class="card-body">
-         
-            <button type="button" class="btn btn-danger">Delete</button>
-            <button type="button" class="btn btn-warning">Edit</button>
-        </div>
-      </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      <script src="js/index.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <script src="js/singin.js"></script>
 </body>
 </html>

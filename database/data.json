@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "assd",
+      "name": "Nicolas",
+      "email": "nicolas@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "5644",
+      "name": "inputName.value",
+      "email": "inputEmail.value",
+      "password": "inputPassword.value"
+    },
+    {
+      "id": "4680",
+      "name": "inputName.value",
+      "email": "inputEmail.value",
+      "password": "inputPassword.value"
+    },
+    {
+      "id": "2a4c",
+      "name": "Alejandro",
+      "email": "hola@hotmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "e494",
+      "name": "hola",
+      "email": "xd@hotmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "e2b5",
+      "name": "roger",
+      "email": "roger@yahoo.com",
+      "password": "Nico2001"
+    }
+  ]
+}
